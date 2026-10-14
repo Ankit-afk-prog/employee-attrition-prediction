@@ -1,0 +1,11 @@
+Check,Finding,Action
+Missing values,0 missing cells found,No imputation needed; imputers are still kept in the pipeline for unseen input
+Duplicate records,0 exact duplicates; 0 ignoring the ID,Nothing removed
+Category labels,No whitespace or capitalisation inconsistencies,Nothing changed
+Invalid values,All coded scales within documented ranges; no negatives; age 18-60,Nothing changed
+Consistency rules,0 violations of 5 rules,Nothing changed
+NumCompaniesWorked = 0,"197 rows, all with TotalWorkingYears = YearsAtCompany + 1",Kept as-is; documented as an undocumented coding convention
+Outliers (IQR rule),713 flagged values in 8 columns,"Kept: values are plausible (senior levels, long tenure), not data errors"
+Constant columns,"Over18, StandardHours, EmployeeCount","Dropped: zero variance, no information"
+Identifier column,EmployeeNumber,"Dropped: unique ID, not a predictor"
+Target label,Yes/No validated,"Encoded as 1 = Left (Yes), 0 = Stayed (No)"

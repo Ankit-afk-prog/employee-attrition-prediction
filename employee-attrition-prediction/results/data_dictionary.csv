@@ -1,0 +1,36 @@
+Column,Type,Unique,Example,Meaning,Role in model
+Age,int64,43,41,Employee age in years,Feature (numeric)
+Attrition,str,2,Yes,Whether the employee left the organisation (Yes/No),Target
+BusinessTravel,str,3,Travel_Rarely,Business-travel frequency (Non-Travel / Travel_Rarely / Travel_Frequently),Feature (categorical)
+DailyRate,int64,886,1102,Pay-rate field; exact definition not documented,Feature (numeric)
+Department,str,3,Sales,Department (Sales / Research & Development / Human Resources),Feature (categorical)
+DistanceFromHome,int64,29,1,Distance from home to work; units not documented,Feature (numeric)
+Education,int64,5,2,"Documented: 1 Below College, 2 College, 3 Bachelor, 4 Master, 5 Doctor","Feature (ordinal, coded 1..k)"
+EducationField,str,6,Life Sciences,Field of education,Feature (categorical)
+EmployeeCount,int64,1,1,Employee count per record (constant = 1),Constant - drop
+EmployeeNumber,int64,1470,1,Unique employee identifier,Identifier - drop
+EnvironmentSatisfaction,int64,4,2,"Documented: 1 Low, 2 Medium, 3 High, 4 Very High","Feature (ordinal, coded 1..k)"
+Gender,str,2,Female,Gender (Female / Male),Feature (categorical)
+HourlyRate,int64,71,94,Pay-rate field; exact definition not documented,Feature (numeric)
+JobInvolvement,int64,4,3,"Documented: 1 Low, 2 Medium, 3 High, 4 Very High","Feature (ordinal, coded 1..k)"
+JobLevel,int64,5,2,Job level 1-5; scale not documented (higher appears more senior),"Feature (ordinal, coded 1..k)"
+JobRole,str,9,Sales Executive,Job role (9 roles),Feature (categorical)
+JobSatisfaction,int64,4,4,"Documented: 1 Low, 2 Medium, 3 High, 4 Very High","Feature (ordinal, coded 1..k)"
+MaritalStatus,str,3,Single,Marital status (Single / Married / Divorced),Feature (categorical)
+MonthlyIncome,int64,1349,5993,Monthly income; currency not documented,Feature (numeric)
+MonthlyRate,int64,1427,19479,Pay-rate field; exact definition not documented,Feature (numeric)
+NumCompaniesWorked,int64,10,8,Number of companies worked at; whether it includes the current one is not documented,Feature (numeric)
+Over18,str,1,Y,Whether the employee is over 18 (constant = 'Y'),Constant - drop
+OverTime,str,2,Yes,Whether the employee works overtime (Yes/No),Feature (categorical)
+PercentSalaryHike,int64,15,11,Most recent salary increase in percent (inferred from name),Feature (numeric)
+PerformanceRating,int64,2,3,"Documented: 1 Low, 2 Good, 3 Excellent, 4 Outstanding","Feature (ordinal, coded 1..k)"
+RelationshipSatisfaction,int64,4,1,"Documented: 1 Low, 2 Medium, 3 High, 4 Very High","Feature (ordinal, coded 1..k)"
+StandardHours,int64,1,80,Standard hours (constant = 80; period not documented),Constant - drop
+StockOptionLevel,int64,4,0,Stock-option level 0-3; meaning of levels not documented,"Feature (ordinal, coded 1..k)"
+TotalWorkingYears,int64,40,8,Total years of work experience,Feature (numeric)
+TrainingTimesLastYear,int64,7,0,Number of training sessions in the last year,Feature (numeric)
+WorkLifeBalance,int64,4,1,"Documented: 1 Bad, 2 Good, 3 Better, 4 Best","Feature (ordinal, coded 1..k)"
+YearsAtCompany,int64,37,6,Years at the current company,Feature (numeric)
+YearsInCurrentRole,int64,19,4,Years in the current role,Feature (numeric)
+YearsSinceLastPromotion,int64,16,0,Years since the last promotion,Feature (numeric)
+YearsWithCurrManager,int64,18,5,Years with the current manager,Feature (numeric)

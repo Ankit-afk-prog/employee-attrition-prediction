@@ -1,0 +1,4 @@
+Model,Tuned hyperparameters
+Logistic Regression,C=0.1
+Random Forest,"max_depth=None, max_features=sqrt, min_samples_leaf=1"
+XGBoost,"subsample=0.6, reg_lambda=1, n_estimators=200, min_child_weight=10, max_depth=2, learning_rate=0.1, gamma=1, colsample_bytree=0.4"
